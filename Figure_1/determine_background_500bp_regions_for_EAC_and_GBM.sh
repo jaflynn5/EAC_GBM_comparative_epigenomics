@@ -1,0 +1,15 @@
+# Jennifer Flynn jaflynn@wustl.edu
+# June 27, 2016
+# This script determines background regions to use for EAC and GBM
+
+# Load in the appropriate module(s):
+module load bedtools/2.27.1
+
+fivehundred_bp_genomic_bins_excluding_ends_of_chromosomes="/bar/jflynn/cancer_enhancer_project/data/num500_allcpg.bed"
+bedtools subtract -a $fivehundred_bp_genomic_bins_excluding_ends_of_chromosomes -b "/bar/jflynn/cancer_enhancer_project/data/blacklist_CpGs.bed" -A > "./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs.bed"
+bedtools intersect -a "./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs.bed" -b "/bar/jflynn/cancer_enhancer_project/data/500bp_regions_with_at_least_one_cpg.bed" -u > "./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs_and_those_without_a_cpg.bed"
+bedtools intersect -a "./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs_and_those_without_a_cpg.bed" -b "./temp_data/MeDIP_and_MRE_sites_full_sorted_merged.bed" -u > "./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs_and_those_without_a_cpg_and_those_without_MeDIP_andor_MRE.bed"
+cat "./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs_and_those_without_a_cpg_and_those_without_MeDIP_andor_MRE.bed" | grep -v '^chrX' | grep -v '^chrY' > "./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs_and_those_without_a_cpg_and_those_without_MeDIP_andor_MRE_for_GBM.bed"
+cat "./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs_and_those_without_a_cpg_and_those_without_MeDIP_andor_MRE.bed" | grep -v '^chrY' > "./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs_and_those_without_a_cpg_and_those_without_MeDIP_andor_MRE_for_EAC.bed"
+EAC_background_regions_to_consider="./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs_and_those_without_a_cpg_and_those_without_MeDIP_andor_MRE_for_EAC.bed"
+GBM_background_regions_to_consider="./temp_data/fivehundred_bp_genomic_bins_excluding_those_that_overlap_to_blacklisted_cpgs_and_those_without_a_cpg_and_those_without_MeDIP_andor_MRE_for_GBM.bed"
