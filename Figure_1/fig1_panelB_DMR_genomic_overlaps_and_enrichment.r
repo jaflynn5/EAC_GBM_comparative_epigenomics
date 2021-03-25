@@ -120,17 +120,17 @@ for (group in DMR_groups)
     # Gather data for plotting
     if (exists("plotting_data"))
     {
-      data=data.frame(DMR_group=group, Genomic_Annotaion=category, Percentage=percentage_overlap_and_enrichment[1], Log2Enrichment=percentage_overlap_and_enrichment[2])
+      data=data.frame(DMR_group=group, Genomic_Annotation=category, Percentage=percentage_overlap_and_enrichment[1], Log2Enrichment=percentage_overlap_and_enrichment[2])
       rbind(plotting_data, data)
     } else
     {
-      plotting_data=data.frame(DMR_group=group, Genomic_Annotaion=category, Percentage=percentage_overlap_and_enrichment[1], Log2Enrichment=percentage_overlap_and_enrichment[2])
+      plotting_data=data.frame(DMR_group=group, Genomic_Annotation=category, Percentage=percentage_overlap_and_enrichment[1], Log2Enrichment=percentage_overlap_and_enrichment[2])
     }
   }
 }
 
 # Plot the data
-ggplot(plotting_data, aes(factor(Genomic_Annotation), Percentage, fill = DMR_Group)) + 
+ggplot(plotting_data, aes(factor(Genomic_Annotation), Percentage, fill = DMR_group)) + 
   geom_bar(stat="identity", position = "dodge") + 
   scale_fill_brewer(palette = "Set1") +
   labs(title="Genomic Annotation Distributions", x = "", y = "Fraction of DMR Nucleotides within Genomic Category") +
@@ -138,7 +138,7 @@ ggplot(plotting_data, aes(factor(Genomic_Annotation), Percentage, fill = DMR_Gro
   theme(axis.text.y = element_text(size=10), axis.title = element_text(size=7)) + 
   theme(axis.text.x = element_text(size=5, angle=90))
 
-ggplot(plotting_data, aes(factor(Genomic_Annotation), Enrichment_Log_Transformed, fill = DMR_Group)) +
+ggplot(plotting_data, aes(factor(Genomic_Annotation), Log2Enrichment, fill = DMR_group)) +
   geom_bar(stat="identity", position = "dodge") +
   scale_fill_brewer(palette = "Set1") +
   labs(y = "Enrichment of Genomic Category within DMR Group (log2)", x = "Genomic Annotation Categories") +
