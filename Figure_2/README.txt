@@ -1,0 +1,1 @@
+chromHMM 18-state model files, referred to in the script: fig2_panelA_determine_epi_defined_promoters.sh (line 9), can be downloaded here: http://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/core_K27ac/jointModel/final/all.dense.bb.tgz. Please see Supplementary Data 5 for a complete list of identifiers used in this analysis.
