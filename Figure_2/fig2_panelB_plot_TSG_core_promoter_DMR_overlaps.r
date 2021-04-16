@@ -9,7 +9,7 @@ library(VennDiagram)
 
 # Read in the data
 full_tumor_suppressor_gene_file=read.table("Human_TSGs.txt", sep="\t", header=TRUE) # File downloaded from from "http://bioinfo.mc.vanderbilt.edu/TSGene/Human_TSGs.txt" on 02/25/2016
-core_promoters_1000bp=read.table("refGene_corePromoters1000bp_withGeneNames_sorted.bed")
+core_promoters_1000bp=read.table("refGene_corePromoters1000bp_withGeneNames_sorted.bed") # File adapted from downloaded file from "http://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/"
 
 EAC_hyperDMRs=read.table("EAC_merged_hyperDMRs.bed")
 colnames(EAC_hyperDMRs)=c("chr", "start", "end", "value")
