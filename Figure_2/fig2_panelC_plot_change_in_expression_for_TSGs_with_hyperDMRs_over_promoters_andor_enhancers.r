@@ -7,16 +7,16 @@ library(bedr)
 library(ggplot2)
 
 # Read in the data
-EAC_hyperDMRs=read.table("/tavern/jflynn/Projects/cancer_enhancer_project/data/6_DMR_groups/4_groups_each_row_different_DMR_sorted_all_DMRs_with_CpGs/EAC_hyperDMRs.bed")
-GBM_hyperDMRs=read.table("/tavern/jflynn/Projects/cancer_enhancer_project/data/6_DMR_groups/4_groups_each_row_different_DMR_sorted_all_DMRs_with_CpGs/GBM_hyperDMRs.bed")
-full_tumor_suppressor_gene_file=read.table("/tavern/jflynn/Projects/cancer_enhancer_project/data/Human_TSGs.txt", sep="\t", header=TRUE) # File downloaded from from "http://bioinfo.mc.vanderbilt.edu/TSGene/Human_TSGs.txt" on 02/25/2016
-core_promoters_1000bp=read.table("/tavern/jflynn/Projects/cancer_enhancer_project/data/refGene_last_updated_04032016/refGene_corePromoters1000bp_withGeneNames_sorted.bed")
-tss=read.table("/tavern/jflynn/Projects/cancer_enhancer_project/data/refGene_last_updated_04032016/refGene_TSSs_withGeneNames_sorted.bed", sep="\t")
-active_enhancers=read.table("/tavern/jflynn/Projects/cancer_enhancer_project/figure2/panel_b/4_categories_06182020/temp_data/active_enhancer_sites_sorted_merged.bed")
-eac_tcga_expression=read.table("/tavern/jflynn/Projects/cancer_enhancer_project/data/expression_data/RPKM_Exp_List_MSI-H.EndoGr3_second_SLC35E2_renamed", row.names = 1, header=T, sep="\t") #EAC expression (TCGA)
-normal_endo_expression=read.table("/tavern/jflynn/Projects/cancer_enhancer_project/data/expression_data/RPKM_Exp_List_Normal_second_SLC35E2_renamed", row.names = 1, header=T, sep="\t") #normal endometrium expression (GTEx)
-gbm_tcga_expression=read.table("/tavern/jflynn/Projects/cancer_enhancer_project/data/expression_data/brain_normal_and_cancer_seperated/GBM_TCGA.Normalized_SLC35E2_second_renamed", row.names = 1, header=T, sep="\t") #GBM expression data (TCGA)
-normal_brain_expression=read.table("/tavern/jflynn/Projects/cancer_enhancer_project/data/expression_data/brain_normal_and_cancer_seperated/normal_cortex_GTEx.Normalized_SLC35E2_second_renamed", row.names = 1, header=T, sep="\t") #Normal brain expression (GTEx)
+EAC_hyperDMRs=read.table("EAC_hyperDMRs.bed")
+GBM_hyperDMRs=read.table("GBM_hyperDMRs.bed")
+full_tumor_suppressor_gene_file=read.table("Human_TSGs.txt", sep="\t", header=TRUE) # File downloaded from from "http://bioinfo.mc.vanderbilt.edu/TSGene/Human_TSGs.txt" on 02/25/2016
+core_promoters_1000bp=read.table("refGene_corePromoters1000bp_withGeneNames_sorted.bed")
+tss=read.table("refGene_TSSs_withGeneNames_sorted.bed", sep="\t")
+active_enhancers=read.table("active_enhancer_sites_sorted_merged.bed")
+eac_tcga_expression=read.table("RPKM_Exp_List_MSI-H.EndoGr3_second_SLC35E2_renamed", row.names = 1, header=T, sep="\t") #EAC expression (TCGA)
+normal_endo_expression=read.table("RPKM_Exp_List_Normal_second_SLC35E2_renamed", row.names = 1, header=T, sep="\t") #normal endometrium expression (GTEx)
+gbm_tcga_expression=read.table("brain_normal_and_cancer_seperated/GBM_TCGA.Normalized_SLC35E2_second_renamed", row.names = 1, header=T, sep="\t") #GBM expression data (TCGA)
+normal_brain_expression=read.table("normal_cortex_GTEx.Normalized_SLC35E2_second_renamed", row.names = 1, header=T, sep="\t") #Normal brain expression (GTEx)
 
 # Correct aliases for DEC1, TRP53COR, LOC401317, and PTPLAD2
 full_tumor_suppressor_gene_file$GeneSymbol=as.character(full_tumor_suppressor_gene_file$GeneSymbol)
