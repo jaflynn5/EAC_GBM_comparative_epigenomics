@@ -18,7 +18,8 @@ chromHMM18_annotation_files="/chromHMM18_annotation_files/*" #Please see the REA
 cat $chromHMM18_annotation_files | awk '{if ($4=="1_TssA" || $4=="2_TssFlnk" || $4=="3_TssFlnkU" || $4=="4_TssFlnkD") print $0}' | sort -k 1,1 -k2,2n | bedtools merge -i - > "epigenomic_promoter_sites_sorted_merged.bed"
 
 # Determine regions annotated as "active enhancers" in any tissue by the chromHMM18 state model
-cat $chromHMM18_annotation_files | awk '{if ($4=="9_EnhA1" || $4=="10_EnhA2") print $0}' | sort -k 1,1 -k2,2n | bedtools merge -i - > "active_enhancer_sites_sorted_merged.bed"
+cat $chromHMM18_annotation_files | awk '{if ($4=="9_EnhA1" || $4=="10_EnhA2") print $0}' | sort -k 1,1 -k2,2n  > "active_enhancer_sites_sorted.bed"
+bedtools merge -i "active_enhancer_sites_sorted.bed" > "active_enhancer_sites_sorted_merged.bed"
 
 # Determine regions annotated as "promoters" in any tissue by the chromHMM18 state models and/or by genomic annotation
 genomic_promoters="refGene_Promoters2500bp_sorted_merged.bed"
