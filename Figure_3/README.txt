@@ -1,1 +1,1 @@
-temp
+Expression data used in the script: "fig3_panelsB_and_C_plot_change_in_expression_of_TFs_with_significantly_enriched_motifs_in_ecDMRs_present_at_least_20_percent_of_ceDMRs.r" can be downloaded from TCGA and GTEx (EAC expression data, line 8, can be downloaded from TCGA; normal endometrium expression data, line 12, can be downloaded from GTEx). Please see accompanying manuscript for more information.
