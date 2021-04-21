@@ -1,0 +1,23 @@
+Gene	Motif	(Motif #2)	(Motif #3)
+ARNT	Arnt:Ahr(bHLH)/MCF7-Arnt-ChIP-Seq(Lo_et_al.)/Homer	HIF-1b(HLH)/T47D-HIF1b-ChIP-Seq(GSE59937)/Homer	
+BHLHE40	bHLHE40(bHLH)/HepG2-BHLHE40-ChIP-Seq(GSE31477)/Homer		
+CLOCK	CLOCK(bHLH)/Liver-Clock-ChIP-Seq(GSE39860)/Homer		
+CUX2	Cux2(Homeobox)/Liver-Cux2-ChIP-Seq(GSE35985)/Homer		
+FOXF1	Foxf1(Forkhead)/Lung-Foxf1-ChIP-Seq(GSE77951)/Homer		
+FOXK1	FOXK1(Forkhead)/HEK293-FOXK1-ChIP-Seq(GSE51673)/Homer		
+FOXO3	Foxo3(Forkhead)/U2OS-Foxo3-ChIP-Seq(E-MTAB-2701)/Homer		
+HNF1B	HNF1b(Homeobox)/PDAC-HNF1B-ChIP-Seq(GSE64557)/Homer		
+KLF9	Klf9(Zf)/GBM-Klf9-ChIP-Seq(GSE62211)/Homer		
+MEF2C	Mef2b(MADS)/HEK293-Mef2b.V5-ChIP-Seq(GSE67450)/Homer		
+MEF2D	Mef2d(MADS)/Retina-Mef2d-ChIP-Seq(GSE61391)/Homer		
+NRF1	NRF1(NRF)/MCF7-NRF1-ChIP-Seq(Unpublished)/Homer	NRF(NRF)/Promoter/Homer	
+PAX5	PAX5(Paired,Homeobox),condensed/GM12878-PAX5-ChIP-Seq(GSE32465)/Homer		
+PAX7	Pax7(Paired,Homeobox),longest/Myoblast-Pax7-ChIP-Seq(GSE25064)/Homer		
+POU1F1	Pit1+1bp(Homeobox)/GCrat-Pit1-ChIP-Seq(GSE58009)/Homer		
+POU3F1	OCT:OCT(POU,Homeobox)/NPC-OCT6-ChIP-Seq(GSE43916)/Homer	Oct6(POU,Homeobox)/NPC-Pou3f1-ChIP-Seq(GSE35496)/Homer	OCT:OCT-short(POU,Homeobox)/NPC-OCT6-ChIP-Seq(GSE43916)/Homer
+POU3F3	OCT:OCT(POU,Homeobox)/NPC-OCT6-ChIP-Seq(GSE43916)/Homer		
+STAT4	STAT4(Stat)/CD4-Stat4-ChIP-Seq(GSE22104)/Homer		
+TBR1	Tbr1(T-box)/Cortex-Tbr1-ChIP-Seq(GSE71384)/Homer		
+YY1	YY1(Zf)/Promoter/Homer		
+ZNF165	ZNF165(Zf)/WHIM12-ZNF165-ChIP-Seq(GSE65937)/Homer		
+ZNF281	Zfp281(Zf)/ES-Zfp281-ChIP-Seq(GSE81042)/Homer		

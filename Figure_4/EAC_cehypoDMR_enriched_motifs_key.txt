@@ -1,0 +1,31 @@
+Gene	Motif	(Motif #2)
+BARX1	Barx1(Homeobox)/Stomach-Barx1.3xFlag-ChIP-Seq(GSE69483)/Homer	
+CRX	CRX(Homeobox)/Retina-Crx-ChIP-Seq(GSE20012)/Homer	
+DMRT1	DMRT1(DM)/Testis-DMRT1-ChIP-Seq(GSE64892)/Homer	
+ELF3	ELF3(ETS)/PDAC-ELF3-ChIP-Seq(GSE64557)/Homer	
+ELF5	ELF5(ETS)/T47D-ELF5-ChIP-Seq(GSE30407)/Homer	
+ESRRA	Erra(NR)/HepG2-Erra-ChIP-Seq(GSE31477)/Homer	
+FOXA1	FOXA1(Forkhead)/MCF7-FOXA1-ChIP-Seq(GSE26831)/Homer	FOXA1(Forkhead)/LNCAP-FOXA1-ChIP-Seq(GSE27824)/Homer
+FOXA2	Foxa2(Forkhead)/Liver-Foxa2-ChIP-Seq(GSE25694)/Homer	Fox:Ebox(Forkhead,bHLH)/Panc1-Foxa2-ChIP-Seq(GSE47459)/Homer
+FOXA3	Foxa3(Forkhead)/Liver-Foxa3-ChIP-Seq(GSE77670)/Homer	
+FOXM1	FOXM1(Forkhead)/MCF7-FOXM1-ChIP-Seq(GSE72977)/Homer	
+GRHL2	GRHL2(CP2)/HBE-GRHL2-ChIP-Seq(GSE46194)/Homer	
+GSC	GSC(Homeobox)/FrogEmbryos-GSC-ChIP-Seq(DRA000576)/Homer	
+HNF1A	Hnf1(Homeobox)/Liver-Foxa2-Chip-Seq(GSE25694)/Homer	
+KLF1	EKLF(Zf)/Erythrocyte-Klf1-ChIP-Seq(GSE20478)/Homer	
+KLF5	KLF5(Zf)/LoVo-KLF5-ChIP-Seq(GSE49402)/Homer	
+LHX2	Lhx2(Homeobox)/HFSC-Lhx2-ChIP-Seq(GSE48068)/Homer	
+NKX2-1	Nkx2.1(Homeobox)/LungAC-Nkx2.1-ChIP-Seq(GSE43252)/Homer	
+NKX2-2	Nkx2.2(Homeobox)/NPC-Nkx2.2-ChIP-Seq(GSE61673)/Homer	
+NKX2-5	Nkx2.5(Homeobox)/HL1-Nkx2.5.biotin-ChIP-Seq(GSE21529)/Homer	
+ONECUT1	HNF6(Homeobox)/Liver-Hnf6-ChIP-Seq(ERP000394)/Homer	
+PAX5	PAX5(Paired,Homeobox)/GM12878-PAX5-ChIP-Seq(GSE32465)/Homer	
+PAX8	Pax8(Paired,Homeobox)/Thyroid-Pax8-ChIP-Seq(GSE26938)/Homer	
+POU3F3	OCT:OCT(POU,Homeobox)/NPC-OCT6-ChIP-Seq(GSE43916)/Homer	
+SIX1	Six1(Homeobox)/Myoblast-Six1-ChIP-Chip(GSE20150)/Homer	
+SOX17	Oct4:Sox17(POU,Homeobox,HMG)/F9-Sox17-ChIP-Seq(GSE44553)/Homer	Sox17(HMG)/Endoderm-Sox17-ChIP-Seq(GSE61475)/Homer
+SOX4	Sox4(HMG)/proB-Sox4-ChIP-Seq(GSE50066)/Homer	
+SOX6	Sox6(HMG)/Myotubes-Sox6-ChIP-Seq(GSE32627)/Homer	
+SOX9	Sox9(HMG)/Limb-SOX9-ChIP-Seq(GSE73225)/Homer	
+TCF3	E2A(bHLH),near_PU.1/Bcell-PU.1-ChIP-Seq(GSE21512)/Homer	E2A(bHLH)/proBcell-E2A-ChIP-Seq(GSE21978)/Homer
+TP63	p63(p53)/Keratinocyte-p63-ChIP-Seq(GSE17611)/Homer	

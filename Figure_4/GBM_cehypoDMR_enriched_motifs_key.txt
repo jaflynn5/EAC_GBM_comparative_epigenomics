@@ -1,0 +1,68 @@
+Gene	Motif	(Motif #2)	(Motif #3)	(Motif #4)
+ATF3	Atf3(bZIP)/GBM-ATF3-ChIP-Seq(GSE33912)/Homer			
+BARX1	Barx1(Homeobox)/Stomach-Barx1.3xFlag-ChIP-Seq(GSE69483)/Homer			
+BATF	BATF(bZIP)/Th17-BATF-ChIP-Seq(GSE39756)/Homer			
+CEBPA	CEBP(bZIP)/ThioMac-CEBPb-ChIP-Seq(GSE21512)/Homer			
+ELF1	ELF1(ETS)/Jurkat-ELF1-ChIP-Seq(SRA014231)/Homer			
+ELF3	ELF3(ETS)/PDAC-ELF3-ChIP-Seq(GSE64557)/Homer	ETS:RUNX(ETS,Runt)/Jurkat-RUNX1-ChIP-Seq(GSE17954)/Homer		
+ELF5	ELF5(ETS)/T47D-ELF5-ChIP-Seq(GSE30407)/Homer			
+ESR1	ERE(NR),IR3/MCF7-ERa-ChIP-Seq(Unpublished)/Homer			
+ESR2	ERE(NR),IR3/MCF7-ERa-ChIP-Seq(Unpublished)/Homer			
+ESRRA	Erra(NR)/HepG2-Erra-ChIP-Seq(GSE31477)/Homer			
+ETS1	ETS1(ETS)/Jurkat-ETS1-ChIP-Seq(GSE17954)/Homer	Ets1-distal(ETS)/CD4+-PolII-ChIP-Seq(Barski_et_al.)/Homer		
+ETV1	ETV1(ETS)/GIST48-ETV1-ChIP-Seq(GSE22441)/Homer			
+ETV2	Etv2(ETS)/ES-ER71-ChIP-Seq(GSE59402)/Homer(0.967)			
+FLI1	Fli1(ETS)/CD8-FLI-ChIP-Seq(GSE20898)/Homer	EWS:FLI1-fusion(ETS)/SK_N_MC-EWS:FLI1-ChIP-Seq(SRA014231)/Homer		
+FOS	Fra1(bZIP)/BT549-Fra1-ChIP-Seq(GSE46166)/Homer			
+FOXA2	Fox:Ebox(Forkhead,bHLH)/Panc1-Foxa2-ChIP-Seq(GSE47459)/Homer			
+FOXO1	Foxo1(Forkhead)/RAW-Foxo1-ChIP-Seq(Fan_et_al.)/Homer			
+GABPA	GABPA(ETS)/Jurkat-GABPa-ChIP-Seq(GSE17954)/Homer	ETS(ETS)/Promoter/Homer		
+GATA3	GATA(Zf),IR3/iTreg-Gata3-ChIP-Seq(GSE20898)/Homer			
+GATA4	Gata4(Zf)/Heart-Gata4-ChIP-Seq(GSE35151)/Homer			
+GLI3	GLI3(Zf)/Limb-GLI3-ChIP-Chip(GSE11077)/Homer			
+HAND2	Hand2(bHLH)/Mesoderm-Hand2-ChIP-Seq(GSE61475)/Homer			
+HOXA2	HOXA2(Homeobox)/mES-Hoxa2-ChIP-Seq(Donaldson_et_al.)/Homer			
+HOXB4	Hoxb4(Homeobox)/ES-Hoxb4-ChIP-Seq(GSE34014)/Homer			
+HOXC9	Hoxc9(Homeobox)/Ainv15-Hoxc9-ChIP-Seq(GSE21812)/Homer			
+HSF1	HRE(HSF)/Striatum-HSF1-ChIP-Seq(GSE38000)/Homer			
+IRF8	PU.1-IRF(ETS:IRF)/Bcell-PU.1-ChIP-Seq(GSE21512)/Homer	PU.1:IRF8(ETS:IRF)/pDC-Irf8-ChIP-Seq(GSE66899)/Homer		
+JUN	c-Jun-CRE(bZIP)/K562-cJun-ChIP-Seq(GSE31477)/Homer	Jun-AP1(bZIP)/K562-cJun-ChIP-Seq(GSE31477)/Homer	AP-1(bZIP)/ThioMac-PU.1-ChIP-Seq(GSE21512)/Homer	
+JUNB	JunB(bZIP)/DendriticCells-Junb-ChIP-Seq(GSE36099)/Homer			
+KLF6	KLF6(Zf)/PDAC-KLF6-ChIP-Seq(GSE64557)/Homer			
+LHX3	Lhx3(Homeobox)/Neuron-Lhx3-ChIP-Seq(GSE31456)/Homer			
+MAFK	MafK(bZIP)/C2C12-MafK-ChIP-Seq(GSE36030)/Homer			
+NFATC3	NFAT:AP1(RHD,bZIP)/Jurkat-NFATC1-ChIP-Seq(Jolma_et_al.)/Homer			
+NFE2	NF-E2(bZIP)/K562-NFE2-ChIP-Seq(GSE31477)/Homer			
+NFIA	NF1(CTF)/LNCAP-NF1-ChIP-Seq(Unpublished)/Homer			
+NFIX	NF1-halfsite(CTF)/LNCaP-NF1-ChIP-Seq(Unpublished)/Homer			
+NKX6-1	Nkx6.1(Homeobox)/Islet-Nkx6.1-ChIP-Seq(GSE40975)/Homer			
+NR1H4	FXR(NR),IR1/Liver-FXR-ChIP-Seq(Chong_et_al.)/Homer			
+NR5A2	Nr5a2(NR)/Pancreas-LRH1-ChIP-Seq(GSE34295)/Homer			
+OLIG2	Olig2(bHLH)/Neuron-Olig2-ChIP-Seq(GSE30882)/Homer			
+PBX1	PBX1(Homeobox)/MCF7-PBX1-ChIP-Seq(GSE28007)/Homer			
+PDX1	Pdx1(Homeobox)/Islet-Pdx1-ChIP-Seq(SRA008281)/Homer			
+PITX1	Pitx1:Ebox(Homeobox,bHLH)/Hindlimb-Pitx1-ChIP-Seq(GSE41591)/Homer			
+RELA	NFkB-p65(RHD)/GM12787-p65-ChIP-Seq(GSE19485)/Homer	NFkB-p65-Rel(RHD)/ThioMac-LPS-Expression(GSE23622)/Homer		
+RUNX1	ETS:RUNX(ETS,Runt)/Jurkat-RUNX1-ChIP-Seq(GSE17954)/Homer	RUNX-AML(Runt)/CD4+-PolII-ChIP-Seq(Barski_et_al.)/Homer	RUNX1(Runt)/Jurkat-RUNX1-ChIP-Seq(GSE29180)/Homer	RUNX(Runt)/HPC7-Runx1-ChIP-Seq(GSE22178)/Homer
+RUNX2	RUNX2(Runt)/PCa-RUNX2-ChIP-Seq(GSE33889)/Homer			
+RXRA	PPARE(NR),DR1/3T3L1-Pparg-ChIP-Seq(GSE13511)/Homer			
+SMAD2	Smad2(MAD)/ES-SMAD2-ChIP-Seq(GSE29422)/Homer			
+SNAI2	Slug(Zf)/Mesoderm-Snai2-ChIP-Seq(GSE61475)/Homer			
+SOX15	Sox15(HMG)/CPA-Sox15-ChIP-Seq(GSE62909)/Homer			
+SOX2	Sox2(HMG)/mES-Sox2-ChIP-Seq(GSE11431)/Homer			
+SOX3	Sox3(HMG)/NPC-Sox3-ChIP-Seq(GSE33059)/Homer			
+SPI1	PU.1(ETS)/ThioMac-PU.1-ChIP-Seq(GSE21512)/Homer	PU.1-IRF(ETS:IRF)/Bcell-PU.1-ChIP-Seq(GSE21512)/Homer	PU.1:IRF8(ETS:IRF)/pDC-Irf8-ChIP-Seq(GSE66899)/Homer	
+TBX5	Tbx5(T-box)/HL1-Tbx5.biotin-ChIP-Seq(GSE21529)/Homer			
+TCF12	HEB(bHLH)/mES-Heb-ChIP-Seq(GSE53233)/Homer	Tcf12(bHLH)/GM12878-Tcf12-ChIP-Seq(GSE32465)/Homer		
+TCF3	E2A(bHLH),near_PU.1/Bcell-PU.1-ChIP-Seq(GSE21512)/Homer	E2A(bHLH)/proBcell-E2A-ChIP-Seq(GSE21978)/Homer		
+TCF4	Tcf4(HMG)/Hct116-Tcf4-ChIP-Seq(SRA012054)/Homer			
+TCF7L1	Tcf3(HMG)/mES-Tcf3-ChIP-Seq(GSE11724)/Homer			
+TEAD2	TEAD2(TEA)/Py2T-Tead2-ChIP-Seq(GSE55709)/Homer			
+TFAP2A	AP-2alpha(AP2)/Hela-AP2alpha-ChIP-Seq(GSE31477)/Homer			
+TFCP2L1	Tcfcp2l1(CP2)/mES-Tcfcp2l1-ChIP-Seq(GSE11431)/Homer			
+TGIF2	Tgif2(Homeobox)/mES-Tgif2-ChIP-Seq(GSE55404)/Homer			
+TWIST1	Twist(bHLH)/HMLE-TWIST1-ChIP-Seq(Chang_et_al)/Homer			
+VDR	VDR(NR),DR3/GM10855-VDR+vitD-ChIP-Seq(GSE22484)/Homer			
+ZEB1	ZEB1(Zf)/PDAC-ZEB1-ChIP-Seq(GSE64557)/Homer			
+ZNF16	ZNF16(Zf)/HEK293-ZNF16.GFP-ChIP-Seq(GSE58341)/Homer			
+ZNF416	ZNF416(Zf)/HEK293-ZNF416.GFP-ChIP-Seq(GSE58341)/Homer			
