@@ -1,1 +1,1 @@
-
+chromHMM 15-state model files, referred to in the script: fig5_panelsAandB_determine_which_GBM_hyperDMRs_overlap_brain_and_fetal_enhancers_and_plot_heatmap.r, can be downloaded here: https://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/coreMarks/indivModels/default_init/.
